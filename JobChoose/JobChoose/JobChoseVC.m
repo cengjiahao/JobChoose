@@ -112,10 +112,14 @@
     _tableView.delegate = self;
     _tableView.dataSource = self;
     [_tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
-    _tableView.estimatedRowHeight  = 0 ;
-    _tableView.estimatedSectionHeaderHeight  = 0 ;
-    _tableView.estimatedSectionFooterHeight  = 0 ;
-    _tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+    if (@available(iOS 11.0, *)) {
+        _tableView.estimatedRowHeight  = 0 ;
+        _tableView.estimatedSectionHeaderHeight  = 0 ;
+        _tableView.estimatedSectionFooterHeight  = 0 ;
+        _tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+    } else {
+        self.automaticallyAdjustsScrollViewInsets = NO;
+    }
     [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     [self.view addSubview:self.tableView];
     self.tableView.hidden = YES;//隐藏
