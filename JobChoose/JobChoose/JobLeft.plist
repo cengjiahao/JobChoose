@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>热门职位</string>
+	<string>行政/后勤</string>
+	<string>销售</string>
+	<string>餐饮/酒店</string>
+	<string>零售/百货</string>
+	<string>人力资源</string>
+	<string>技工/工人</string>
+	<string>贸易/物流</string>
+	<string>司机</string>
+	<string>家政/安保</string>
+	<string>淘宝职位</string>
+	<string>财务审计</string>
+	<string>客服</string>
+	<string>教育/培训</string>
+	<string>设计/创意</string>
+	<string>媒体/影视</string>
+	<string>市场/公关</string>
+	<string>建筑/装修</string>
+	<string>广告/会展</string>
+	<string>金融/证券</string>
+	<string>美容/美发</string>
+	<string>通信/网络</string>
+	<string>产品/运营</string>
+	<string>运动健身</string>
+	<string>房产/开发</string>
+	<string>保险</string>
+	<string>保健按摩</string>
+	<string>咨询/顾问</string>
+	<string>汽车制造</string>
+	<string>农/林/牧/渔</string>
+	<string>服装生产</string>
+	<string>生物工程</string>
+	<string>高级管理</string>
+	<string>医院医疗</string>
+	<string>软件开发</string>
+	<string>运维测试</string>
+	<string>化工</string>
+	<string>机械设计</string>
+	<string>生产制造</string>
+	<string>电子/电器</string>
+	<string>电气/能源</string>
+	<string>旅游</string>
+	<string>信托/担保</string>
+	<string>环保</string>
+	<string>编辑/出版</string>
+	<string>法律</string>
+	<string>物业管理</string>
+	<string>翻译</string>
+</array>
+</plist>
